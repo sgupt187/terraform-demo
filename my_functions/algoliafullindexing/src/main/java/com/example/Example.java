@@ -266,7 +266,7 @@ public class Example implements HttpFunction {
 
 		}
 		// Connect and authenticate with your Algolia app
-		SearchClient searchclient = DefaultSearchClient.create("342HRB2XQ5", "3557ba5b9d8d46b2f8301ad5d44d4db9");
+		SearchClient searchclient = DefaultSearchClient.create("VHXT4I8OD8", "09d92dfd1e9669b1d8e5ee86653e7a3f");
 		SearchIndex<Object> index = searchclient.initIndex("Products_cmtools_store1", Object.class);
 		SearchIndex<Object> germanindex = searchclient.initIndex("Products_cmtools_ger_store1", Object.class);
 		boolean autoGenerateObjectIDIfNotExist = true;
